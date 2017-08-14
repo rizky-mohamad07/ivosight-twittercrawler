@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-xs-right">
+          <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="/stream" class="nav-link">Tweets</a></li>
+          <li class="nav-item"><a href="/over" class="nav-link">Count</a></li>
+        </ul>
+        <h3 class="text-muted"> Ivosight Code Chalange </h3>
+      </nav>
+    </div>
+
+    <section>
+      {% block content %}{% endblock %}
+    </section>
+
+  </div>
+</body>
+</html>
